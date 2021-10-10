@@ -1,0 +1,16 @@
+1. Viết hàm với tham số đầu vào là 1 số bất kỳ, kiểm tra và in ra màn hình 
+là số chẵn hay lẽ. Ví dụ: Số 3 là số lẽ.
+1.2 Dựa vào hàm ở bài 1, kiểm tra thêm số đó là số âm hay dương. Ví dụ: 
+Số 3 là số âm và lẽ.
+2.1 Viết hàm với tham số đầu vào là 1 số trong tháng (1 tới 12), kiểm tra 
+và in ra tháng đó có bao nhiều ngày? Ví dụ Tháng 1 có 31 ngày
+2.2 Viết hàm với đầu vào là 1 số bất kỳ, kiểm tra số đó và in ra là số 
+nguyên dương hay số nguyên âm, nếu không phải cả 2 thì in ra không phải 
+số cần kiểm tra.
+3. Viết hàm tính tổng 2 số với tất cả các phép tính (+ - * / %) thông qua 
+tham số truyền vào
+
+Yêu cầu của bài 3: a muốn có 1 hàm mà truyền vào 3 tham số a, b là 2 số 
+muốn tính, tham số thứ 3 (+ - * / %) sẽ quyết định kết quả. Kiểm tra kỹ 
+đầu vào của 2 số muốn tính, nếu không phải số thì exit và thông báo số nhập 
+không đúng.
