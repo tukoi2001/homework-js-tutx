@@ -42,7 +42,7 @@ console.log('Kết quả bài 1.2: ' +checkNumber(3)); // Kết quả bài 1.2: 
 function checkMonth(month, year) {
 
     let checkYear = function () {
-        if ((year % 4 === 0) && (year % 100 != 0) || (year % 400 === 0)) {
+        if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
             return true;
         }
         else {
@@ -90,10 +90,10 @@ console.log('Kết quả bài 2.1: ' + checkMonth(2, 2020)); //Kết quả bài 
 
 
 function checkNumber2(number) {
-   if (number > 0) {
+   if (number > 0 && number % 1 === 0) {
        return number + ' là số nguyên dương!';
    }
-   else if (number < 0) {
+   else if (number < 0 && number % 1 === 0) {
        return number + ' là số nguyên âm!';
    }
    else {
