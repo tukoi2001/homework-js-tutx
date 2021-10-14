@@ -7,6 +7,7 @@ gallerys.forEach(function(gallery) {
         modal.classList.add('open');
         let imgAlt = gallery.getAttribute('alt');
         imgFull.src = `./img/full/${imgAlt}.jpg`;
+        imgFull.classList.add('open');
     })
 })
 
